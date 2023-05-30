@@ -3,13 +3,14 @@
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 20px;
-    background-image: url(imageC/back-pic1.jpg);
+    background-color: #fff;
+   /* background-image: url(imageC/back-pic1.jpg);*/
     background-size:cover ;
   }
   
   h1 {
     text-align: center;
-    color: #fff;
+    color: #000000;
   }
   
   #cart-items {
@@ -70,15 +71,21 @@
     font-size: xx-large;
     font-style: italic;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #fff;
+    color: #010101;
   }
   .item {
   width:none;
   height: auto;
-  background-color: rgb(254, 254, 254);
+  background-color:  #fcd2a5;
   font-size: 20px;
   border-radius: 90px;
   margin-bottom: 20px;
   padding: 10px;
   box-sizing: border-box;
+}
+
+.titre span{
+  color: #fb911f;
+  font-size: 1.5em;
+  font-weight: 700px;
 }
