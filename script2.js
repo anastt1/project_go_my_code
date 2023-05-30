@@ -1,4 +1,4 @@
-/*window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('DOMContentLoaded', (event) => {
     // Sélectionner tous les boutons de suppression
     const removeButtons = document.querySelectorAll('.remove');
   
@@ -40,4 +40,4 @@
     const totalAmount = document.getElementById('total-amount');
     totalAmount.textContent = '$' + total.toFixed(2);
   }
-  */
+  
